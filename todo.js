@@ -37,7 +37,7 @@ function showList() {
     console.log("Done:")
 
     for (let task in list) {
-        if (list[task] === "To Do") {
+        if (list[task] === "Done") {
             console.log("-")
         }
     }
